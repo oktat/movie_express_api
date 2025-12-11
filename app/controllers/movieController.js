@@ -18,7 +18,7 @@ const MovieController = {
         res.status(200)
         res.json({
             success: true,
-            data: thingArray
+            data: movies
         })
     },
     async show(req, res) {
